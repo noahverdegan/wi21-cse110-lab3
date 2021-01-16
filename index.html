@@ -18,6 +18,8 @@
                 <a href="https://canvas.ucsd.edu/">Canvas</a> | 
                 <a href="https://noahverdegan.github.io/noahverdeganCSE110LabWeek1.github.io/">Week 1 Lab</a>
             </nav>
+            <h3>My Lab 1 page</h3>
+            <iframe src="https://noahverdegan.github.io/noahverdeganCSE110LabWeek1.github.io/" title="Lab1"></iframe>
             <hr>
             <section>
                 <h3>Fun with formatting</h3>
@@ -54,7 +56,40 @@
                     System.out.println("why");
                 }
             </code>
-            <h3>Here is a picture of my dog</h3>
+            <section>
+                <h3>Here's a fun green square</h3>
+                <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+                <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#00FF00";
+                ctx.fillRect(0, 0, 80, 80);
+                </script> 
+                <h3>Here's a red circle</h3>  
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="4" fill="red" />
+                  </svg> 
+            </section>
+            <h3>A song I like called ASA ANSWER</h3>
+            FBI dont hurt me.<br>
+            <audio controls>
+                <source src="ASA_ANSWER.mp3" type="audio/mpeg">
+            </audio>
+            
+            <h3>Here are some pictures of my dog, Gigi (resize width!)</h3>
+            <figure>
+                <picture>
+                    <source media="(min-width:750px)" srcset="gigiblanket.jpg">
+                    <source media="(min-width:650px)" srcset="sungigi.jpg">
+                    <source media="(min-width:550px)" srcset="gigiblanket2.jpg">
+                    <img src="hiddendog.jpg" alt="very good at hiding" style="width:50%">
+                </picture>
+                <figcaption>Various Gigi's</figcaption>
+            </figure>
+            <h3>Here is a video of Gigi stretching</h3>
+            <video width="400" controls>
+                <source src="video0.mp4" type="video/mp4">
+            </video>
         </main>
         <footer>
             <p>Author: Noah Verdegan</p>
