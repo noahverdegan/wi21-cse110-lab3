@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+header {
+    color: slateblue;
+    background-color: rgba(127,255,212,1);
+    width: auto;
+    height: auto;
+    border: 6px solid rgb(100, 0, 100);
+    border-radius: 12px;
+    padding-top: 0.5cm;
+    padding-bottom: 0.25cm;
+    margin-top: 0.5in;
+    margin-bottom: 0.2in;
+    text-align: center;
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 30px;
+}
+
+header h2{
+    font-size: 1.2em;
+}
