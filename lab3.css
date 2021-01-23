@@ -86,4 +86,31 @@ summary:active{
     width: 200px;
     margin: 10px;
     padding: 20px;
-  }
+}
+
+.form{
+    display:none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #f321f3;
+    padding: 10px;
+}
+  
+.grid-container > div {
+    background-color: rgba(226, 148, 148, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1{
+    grid-row:1 / 4;
+}
+
+.item2{
+    grid-column: 2 / 4;
+}
