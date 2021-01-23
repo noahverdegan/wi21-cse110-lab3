@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-
+/*Designing title*/
 header {
     color: slateblue;
     background-color: rgba(127,255,212,1);
@@ -21,6 +21,9 @@ header h2{
     font-size: 1.2em;
 }
 
+/*
+Center nav section
+*/
 template ~ nav{
     position: relative;
     top: -10px;
@@ -37,6 +40,7 @@ em{
     text-decoration: overline;
 }
 
+/* design aside section */
 aside{
     float: right;
     color: hsl(0,100%,50%);
@@ -61,4 +65,25 @@ h3.list:hover + ol{
     display: block;
 }
 
+summary:active{
+    background-color: #0d447c;
+}
 
+#gigis{
+    font-size: 3vw;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(136, 233, 233);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container > img {
+    background-color: #a21dc4;
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+  }
