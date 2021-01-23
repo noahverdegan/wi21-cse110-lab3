@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
+
 header {
     color: slateblue;
     background-color: rgba(127,255,212,1);
@@ -19,3 +20,44 @@ header {
 header h2{
     font-size: 1.2em;
 }
+
+template ~ nav{
+    position: relative;
+    top: -10px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+strong{
+    text-decoration: underline;
+}
+
+em{
+    text-decoration: overline;
+}
+
+aside{
+    float: right;
+    color: hsl(0,100%,50%);
+    max-width: 30%;
+    margin: 0.1, 0.1, 0.1, 0.1;
+    padding: 0.1, 0.1, 0.1, 0.1;
+    border: 3px hsla(50,100%,60%) solid;
+    background-color: gray;
+}
+
+div > p{
+    background-color: #0f0;
+    border: .1ch dashed #0d447c;
+    font-size: 3vw;
+}
+
+ol{
+    display: none;
+}
+
+h3.list:hover + ol{
+    display: block;
+}
+
