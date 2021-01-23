@@ -40,7 +40,7 @@
                     <p>This is where the div text ends. What does it do?</p>
                 </div>
             </section>
-            <h3 class="list">Order in which I did this assignment</h3>
+            <h3 class="list">Order in which I did this assignment (mouse over me)</h3>
             <ol>
                 <li>Make repository on github</li>
                 <li>Make an html file and try to remember how html works</li>
@@ -77,15 +77,13 @@
             </audio>
             
             <h3>Here are some pictures of my dog, Gigi (resize width!)</h3>
-            <figure>
-                <picture>
-                    <source media="(min-width:750px)" srcset="gigiblanket.jpg">
-                    <source media="(min-width:650px)" srcset="sungigi.jpg">
-                    <source media="(min-width:550px)" srcset="gigiblanket2.jpg">
-                    <img src="hiddendog.jpg" alt="very good at hiding" style="width:50%">
-                </picture>
-                <figcaption>Various Gigi's</figcaption>
-            </figure>
+
+            <div class="flex-container">
+                <img src="gigiblanket.jpg">
+                <img src="sungigi.jpg">
+                <img src="gigiblanket2.jpg">
+                <img src="hiddendog.jpg">
+            </div>
             <h3>Here is a video of Gigi stretching</h3>
             <video width="400" controls>
                 <source src="video0.mp4" type="video/mp4">
